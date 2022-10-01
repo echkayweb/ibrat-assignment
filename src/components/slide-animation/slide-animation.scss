@@ -1,0 +1,93 @@
+.slide-animation-container {
+  position: relative;
+  margin: 0;
+  padding: 30px 0px 0px 90px;
+
+  .slides {
+    display: flex;
+    position: relative;
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 100vw;
+
+    .slide {
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      width: 45%;
+      transition: all 0.3s ease-in;
+      color: #fff;
+      font-size: 1.5em;
+      overflow: hidden;
+      z-index: 1;
+
+      p,
+      i {
+        position: absolute;
+        margin: 0;
+        top: 30px;
+      }
+
+      p {
+        text-transform: uppercase;
+        left: 30px;
+        z-index: 1;
+      }
+
+      i {
+        right: 30px;
+        display: none;
+        font-size: 0.9em;
+        padding: 2px 5px;
+        border-radius: 50%;
+        color: #000;
+        background-color: #fff9;
+        transition: all 0.3s ease-in;
+      }
+
+      &:hover i {
+        display: block;
+      }
+    }
+
+    .slide:first-child {
+      border-radius: 20px 0% 0% 20px;
+    }
+
+    .slide:last-child {
+      border-radius: 0% 20px 20px 0%;
+    }
+
+    .slide-one {
+      left: 0;
+      width: 40%;
+
+      &:hover {
+        width: 45%;
+      }
+
+      &:hover ~ .slide-two {
+        left: 45%;
+        width: 25%;
+      }
+
+      &:hover ~ .slide-three {
+        left: 65%;
+        width: 25%;
+      }
+    }
+
+    .slide-two {
+      left: 20%;
+
+      &:hover ~ .slide-three {
+        left: 65%;
+        width: 25%;
+      }
+    }
+
+    .slide-three {
+      left: 40%;
+    }
+  }
+}

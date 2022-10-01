@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #eaeaea;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

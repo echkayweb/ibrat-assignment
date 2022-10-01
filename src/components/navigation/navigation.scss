@@ -1,0 +1,21 @@
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  .brand img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .nav-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+  }
+
+  .login i {
+    margin-right: 10px;
+  }
+}
