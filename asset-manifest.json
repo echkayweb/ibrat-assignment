@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ibrat-assignment/static/css/main.8c63fdb5.css",
+    "main.js": "/ibrat-assignment/static/js/main.c688fff4.js",
+    "static/js/787.6ba76f01.chunk.js": "/ibrat-assignment/static/js/787.6ba76f01.chunk.js",
+    "index.html": "/ibrat-assignment/index.html",
+    "main.8c63fdb5.css.map": "/ibrat-assignment/static/css/main.8c63fdb5.css.map",
+    "main.c688fff4.js.map": "/ibrat-assignment/static/js/main.c688fff4.js.map",
+    "787.6ba76f01.chunk.js.map": "/ibrat-assignment/static/js/787.6ba76f01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c63fdb5.css",
+    "static/js/main.c688fff4.js"
+  ]
+}
